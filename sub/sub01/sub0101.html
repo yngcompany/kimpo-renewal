@@ -1,0 +1,54 @@
+﻿<?include "../../include/head.html"?>
+	<?include "../../include/header.html"?>
+	<div id="section">
+	<div id="s_contents">
+		<div class="conbox sub0101">
+			<!-- section01-->
+			<div class="section01">
+				<span class="s_title01"><span></span>안내지도</span>
+				<span class="s_title02"><span></span>김포 지도</span>
+											
+					<div>
+						<ul class="sub_menu">
+							<li><a class="tab-link on" data-type="tab01">전체 지도</a></li>
+							<li><a class="tab-link" data-type="tab02">도심권 지도</a></li>
+							<li><a class="tab-link" data-type="tab03">서부권 지도</a></li>
+							<li><a class="tab-link" data-type="tab04">북부권 지도</a></li>
+						</ul>
+						<div id="tab01" class="tab-content on">
+							<div class="rent_guide">	
+								<img src="../../images/sub0101_img01.png" alt="" />
+							</div>
+						</div>
+						<div id="tab02" class="tab-content">
+							<div class="rent_guide">	
+								<img src="../../images/sub0101_img02.png" alt="" />
+							</div>
+						</div>
+						<div id="tab03" class="tab-content">
+							<div class="rent_guide">	
+								<img src="../../images/sub0101_img03.png" alt="" />
+							</div>
+						</div>
+						<div id="tab04" class="tab-content">
+							<div class="rent_guide">	
+								<img src="../../images/sub0101_img04.png" alt="" />
+							</div>
+						</div>
+						<script>
+						$('.tab-link').click(function(){
+							var tab_id = $(this).attr('data-type');
+							$('.tab-link').removeClass('on');
+							$('.tab-content').removeClass('on');
+							$(this).addClass('on');
+							$("#"+tab_id).addClass('on');
+						})
+						</script>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<?include "../../include/footer.html"?>
+</body>
+</html>
