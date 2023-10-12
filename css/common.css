@@ -1,0 +1,85 @@
+@charset 'utf-8';
+/* 나눔명조 */
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700,800');
+/* font-family: 'Nanum Myeongjo', serif; */
+
+/* 나눔스퀘어 */
+@import url(//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
+/* font-family: 'Nanum Square'; */
+
+/* 나눔바른고디 */
+@import url(HTTP://FONTS.GOOGLEAPIS.COM/EARLYACCESS/NANUMGOTHIC.CSS);
+@import url(HTTP://CDN.JSDELIVR.NET/FONT-NANUM/1.0/NANUMBARUNGOTHIC/NANUMBARUNGOTHIC.CSS);
+/* font-family: '나눔바른고딕', 'NANUM BARUN GOTHIC'; */
+
+/* 영어폰트 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+/* 본고딕 */
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 400;
+   src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 500;
+   src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 700;
+   src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 900;
+   src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');
+ }
+
+body,div{font-family: 'Noto Sans KR', sans-serif !important;  color:#222222; font-weight:300; letter-spacing: -0.10em;}
+textarea,button{font-family: 'Noto Sans KR', sans-serif;  color:#222222;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,fieldset,legend,p,blockquote,th,td {margin:0; padding:0; outline:none; word-break:keep-all; -webkit-text-size-adjust:none; border:0; letter-spacing:-0.5px;}
+dl,ul,ol,menu,li {list-style:none; border:none; }
+h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+button {background-color:transparent; cursor:pointer; border:0;}
+img {vertical-align:top; border:0;}
+caption {display:none;}
+a {text-decoration:none; color:black;}
+address {font-style:normal;}
+strong {font-weight:700;}
+iframe {border:0;}
+legend {font-size: 0; height: 0; line-height: 0; overflow: hidden; visibility: hidden; width: 0;}
+
+table {padding:0; border-spacing:0px; border:0; border-collapse:collapse;}
+th, td {padding:0px;}
